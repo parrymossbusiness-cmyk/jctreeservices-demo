@@ -282,7 +282,7 @@ h1 em, h2 em { color: var(--orange); font-style: normal; }
   .story-grid { width: 100%; grid-template-columns: 1fr; }
   .story-visual { min-height: 580px; }
   .story-visual > img { object-position: center 35%; }
-  .story-stamp { right: 24px; bottom: -55px; }
+  .story-stamp { right: 24px; bottom: 24px; }
   .story-copy { padding: 105px max(32px, calc((100vw - 680px)/2)) 75px; }
   .process-grid { gap: 0; }
   .process-grid li { padding: 0 30px; }
