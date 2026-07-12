@@ -275,7 +275,7 @@ h1 em, h2 em { color: var(--orange); font-style: normal; }
   .primary-nav .button { margin-top: 14px; }
   .hero { grid-template-columns: 1fr; min-height: 0; }
   .hero-media { order: -1; }
-  .hero-media img { height: 380px; }
+  .hero-media img { height: 380px; object-position: center 25%; }
   .hero-copy { padding: 56px max(32px, calc((100vw - 680px)/2)) 48px; }
   .hero h1 { max-width: 650px; }
   .hero-lede { max-width: 570px; }
@@ -313,8 +313,8 @@ h1 em, h2 em { color: var(--orange); font-style: normal; }
   .topbar { display: none; }
   .nav-wrap { min-height: 68px; }
   .brand-logo { width: 190px; height: 54px; }
-  .hero-media img { height: 250px; object-position: 64% center; }
-  .hero-copy { padding: 26px 24px 36px; }
+  .hero-media img { height: 300px; object-position: center 25%; }
+  .hero-copy { padding: 24px 24px 36px; }
   .hero h1 { font-size: clamp(3.2rem, 16vw, 4.45rem); }
   .hero-lede { margin-top: 22px; font-size: .94rem; }
   .hero-actions { align-items: stretch; flex-direction: column; gap: 15px; }
